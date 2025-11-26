@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee6fb;
+    color: #00000e;
+    font-family: "Comic Neue", cursive;
+    font-weight: 900;
+}
+
+header {
+    padding: 2rem;
+    background-color: #908cef;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: #383e57;
+     
+}
+
+h3 {
+    color: #00000e;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    accent-color: #525798;
+}
+ 
+input[type="text"], input[type="password"], 
+input[type="email"], input[type="date"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #525798;
+    outline: none;
+    border-radius: 50px;
+}
+
+input::placeholdere {
+    color: #383e57;
+}
+
+select {
+    cursor: pointer;
+    background-color: #ddc7ff;
+    border-radius: 50px;
+    outline: none;
+}
+img {
+    width: 10rem;
+    border-radius: 50px;
+    border: 2px solid #383e57;
+}
+ 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #aaa8e9;
+    padding: 1rem;
+} 
+
+td {
+    padding: 0.4rem;
+    text-align: center;
+}
+
+details {
+    background-color: #aaa8e9;
+    border-radius: 50px;
+    padding: 1rem;
+}
+
+summary {
+    color: #383e57;
+    margin: 0.5rem;
+    margin-left: 2rem;
+}
+
+
+ol {
+    margin-left: 2rem;
+}
+ 
+fieldset {
+    border: 2px solid #525798;
+    border-radius: 50px;
+    padding: 1rem;
+}
+
+legend {
+    color:#6964ec;
+    padding: 0 0.5rem;
+}
+
+textarea {
+    outline: none;
+    border-radius: 50px;
+    border: 2px solid #525798;
+}
+
+button {
+    color: #6964ec;
+    background-color: #c2c6fb;
+    border: #525798;
+    padding: 0.5rem;
+   border-radius: 50px;
+}
+
+footer {
+    background-color: #908cef;
+    padding: 2rem;
+}
+.paragrafo-footer {
+    color: #00000e;
+    text-align: center;
+}
+
